@@ -1,0 +1,93 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="common.master.cs" Inherits="Hotel_Royale.common" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>
+        <asp:ContentPlaceHolder ID="titel" runat="server">
+        </asp:ContentPlaceHolder>
+    </title>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" type="text/css" href="/css/master/common_master.css" />
+</head>
+<body style="background: url('/images/master/back1.jpg') no-repeat center center fixed; background-size: cover; position: relative;">
+    <form id="form1" runat="server">
+        <div>
+            <asp:ScriptManager ID="CallingHomeFuncs" runat="server" EnablePageMethods="true" EnablePartialRendering="true"></asp:ScriptManager>
+            <asp:SqlDataSource ID="signInDataSource" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" ProviderName="<%$ ConnectionStrings:ConnectionString.ProviderName %>" SelectCommand="SELECT * FROM [user_data]"></asp:SqlDataSource>
+
+
+
+            <div class="book_now">
+                <a href="/rooms/rooms.aspx">
+                    <img src="/images/master/booknow.png" />
+                </a>
+            </div>
+            <div class="banner">
+                <p align="middle">
+                    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT * FROM [Table]" ></asp:SqlDataSource>
+                    <img src="/images/master/logo.png" />Hotel Royal
+                </p>
+            </div>
+            <asp:UpdatePanel ID="currUsrUP" runat="server">
+                <ContentTemplate>
+                    <div class="profile" runat="server" id="curr_user_div" visible="false">
+                        <table>
+                            <tr>
+                                <td rowspan="2">
+                                    <img src="/images/master/logo.png" />
+                                </td>
+                                <td>
+                                    <p runat="server" id="curr_user_p"></p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <asp:Button runat="server" ID="curr_user_btn" Text="sign out" OnClick="signMeOut" />
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </ContentTemplate>
+            </asp:UpdatePanel>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a runat="server" id="l1" href="/home.aspx">Home</a>
+                    </li>
+                    <li>
+                        <a runat="server" id="l2" href="/location/location.aspx">Location</a>
+                    </li>
+                    <li>
+                        <a runat="server" id="l3" href="/rooms/rooms.aspx">Rooms</a>
+                    </li>
+                    <li>
+                        <a runat="server" id="l4" href="/restaurant/restaurant.aspx">Restaurant</a>
+                    </li>
+                    <li>
+                        <a runat="server" id="l5" href="/services/services.aspx">Services</a>
+                    </li>
+                    <li>
+                        <a runat="server" id="l6" href="/events/events.aspx">Events</a>
+                    </li>
+                    <li>
+                        <a runat="server" id="l7" href="/membership/membership.aspx">Member</a>
+                    </li>
+                    <li runat="server" id="apl" visible="false">
+                        <a runat="server" id="l8" href="/admin/admin.aspx">Admin Panel</a>
+                    </li>
+
+                </ul>
+            </div>
+            <asp:ContentPlaceHolder ID="uncommon" runat="server">
+            </asp:ContentPlaceHolder>
+            <div class="heading">
+                <p>Designed by <font color="blue"><b><u>Tareq Rahman Joy</u></b></font></p>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
