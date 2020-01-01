@@ -1,0 +1,131 @@
+﻿.profile{
+    background-color: #283593;
+    display: inline-block;
+    position:absolute;
+    right:0px;
+    top:10px;
+    padding:7px;
+    z-index:100;
+    opacity:.9;
+    border: 1px solid #303F9F;
+}
+
+.profile table tr td img{
+    width:30px;
+    height:30px;
+}
+.profile table tr td p{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width:130px;
+    color:#F4D03F;
+    font-size:18px;
+    font-weight:bold;
+    padding:0;
+    margin:0 0 0 7px;
+}
+.profile table tr td p:hover{
+    cursor:pointer;
+}
+.profile table tr td input[type="submit"]{
+    background:none;
+    color:#F4D03F;
+    border:none;
+    padding:0;
+    margin:0 0 0 7px;
+    font:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    cursor:pointer;
+}
+.profile table tr td input[type="submit"]:hover{
+    text-decoration:underline;
+}
+.book_now {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 1000;
+}
+
+    .book_now a img {
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        background-color: red;
+        transition: all 0.5s ease;
+        z-index: 1000;
+    }
+
+        .book_now a img:hover {
+            transform: scale(1.2);
+            cursor: pointer;
+        }
+
+.banner {
+    background-color: transparent;
+    overflow: hidden;
+}
+
+    .banner p img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .banner p {
+        color: #F4D03F;
+        font-weight: bolder;
+        font-size: 60px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        text-align: center;
+        font-family: "Arial", cursive, sans-serif;
+        text-shadow: 0 0 3px #D35400, 0 0 5px #D35400, 2px 2px 4px #D35400;
+    }
+
+.menu {
+    background-color: #F4D03F;
+    overflow: hidden;
+}
+
+    .menu ul {
+        list-style-type: none;
+        display: table;
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+    }
+
+        .menu ul li {
+            display: table-cell;
+            border-right: 1px solid #bbb;
+        }
+
+            .menu ul li a {
+                display: block;
+                text-decoration: none;
+                color: black;
+                font-size: 20px;
+                transition: all 0.1s ease-in-out 0.1s;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                text-align: center;
+                font-family: "Arial", cursive, sans-serif;
+            }
+
+                .menu ul li a:hover {
+                    transform: scale(1.1);
+                    background-color: #D35400;
+                    color: white;
+                }
+
+.heading {
+    background-color: #F4D03F;
+    margin-top: 13px;
+    display:block;
+    overflow: hidden;
+}
+
+    .heading p {
+        text-align: center;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        font-weight: bolder;
+    }

@@ -1,0 +1,17 @@
+E:\Projects\VB 2015\Hotel_Royale\Hotel_Royale\bin\Hotel_Royale.dll.config
+E:\Projects\VB 2015\Hotel_Royale\Hotel_Royale\bin\Hotel_Royale.dll
+E:\Projects\VB 2015\Hotel_Royale\Hotel_Royale\bin\Hotel_Royale.pdb
+E:\Projects\VB 2015\Hotel_Royale\Hotel_Royale\obj\Debug\Hotel_Royale.csprojResolveAssemblyReference.cache
+E:\Projects\VB 2015\Hotel_Royale\Hotel_Royale\obj\Debug\Hotel_Royale.dll
+E:\Projects\VB 2015\Hotel_Royale\Hotel_Royale\obj\Debug\Hotel_Royale.pdb
+E:\Projects\VB 2015\Hotel_Royale\Hotel_Royale\obj\Debug\Hotel_Royale.csproj.CoreCompileInputs.cache
+E:\Projects\VB 2015\Hotel_Royale\Hotel_Royale\bin\itextsharp.dll
+E:\Projects\VB 2015\Hotel_Royale\Hotel_Royale\obj\Debug\Hotel_Royale.csproj.CopyComplete
+G:\Projects\Hotel_Royale\Hotel_Royale\bin\Hotel_Royale.dll.config
+G:\Projects\Hotel_Royale\Hotel_Royale\bin\Hotel_Royale.dll
+G:\Projects\Hotel_Royale\Hotel_Royale\bin\Hotel_Royale.pdb
+G:\Projects\Hotel_Royale\Hotel_Royale\obj\Debug\Hotel_Royale.csprojAssemblyReference.cache
+G:\Projects\Hotel_Royale\Hotel_Royale\obj\Debug\Hotel_Royale.csproj.CoreCompileInputs.cache
+G:\Projects\Hotel_Royale\Hotel_Royale\obj\Debug\Hotel_Royale.csproj.CopyComplete
+G:\Projects\Hotel_Royale\Hotel_Royale\obj\Debug\Hotel_Royale.dll
+G:\Projects\Hotel_Royale\Hotel_Royale\obj\Debug\Hotel_Royale.pdb

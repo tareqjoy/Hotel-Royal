@@ -1,0 +1,191 @@
+﻿.container {
+    font-family: Arial;
+    padding: 0px;
+    transition: 1s;
+    width: 100%;
+    height: 420px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+    .container p {
+        font-weight: bolder;
+        color: white;
+        text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 25px black;
+        margin: 0px;
+        padding-left: 20px;
+    }
+
+.next_prev {
+    width: 35px;
+    z-index: 1;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgba(255,255,255,0.5);
+    transition: all 0.5s ease;
+}
+
+    .next_prev:hover {
+        background-color: rgba(255,255,255,0.8);
+    }
+
+.heading {
+    background-color: #F4D03F;
+    margin-top: 13px;
+    overflow: hidden;
+}
+
+    .heading p {
+        text-align: center;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        font-weight: bolder;
+    }
+
+.option {
+    margin-top: 13px;
+    display: table;
+    width: 96.5%;
+    table-layout: fixed;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+    .option p {
+        display: table-cell;
+        text-align: center;
+        padding: 8px;
+        font-size: 18px;
+        color: white;
+        background-color: #D35400;
+        transition: ease-in-out 0.1s;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: bold;
+    }
+
+        .option p:hover {
+            cursor: pointer;
+            background-color: brown;
+        }
+
+        .option p.active {
+            background-color: #4DB6AC;
+            outline:5px solid #009688
+        }
+
+.select_option {
+    margin-top: 13px;
+    display: table;
+    width: 96.5%;
+    table-layout: fixed;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+    .select_option p {
+        display: table-cell;
+        text-align: center;
+        padding: 8px;
+        font-size: 18px;
+        color: black;
+        transition: ease-in-out 0.1s;
+          background-color:#E1F5FE;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        outline:1px solid #B3E5FC;
+
+    }
+
+        .select_option p:hover {
+            cursor: pointer;
+      background-color:#E3F2FD;
+           outline:1px solid #4FC3F7;
+        }
+
+        .select_option p.active {
+            outline:5px solid #2E7D32;
+            color:#2E7D32;
+            position:relative;
+            background-color:#A5D6A7;
+            z-index:1;
+        }
+
+
+
+.loading_div {
+    width: 100%;
+    height: 1120px;
+    position: absolute;
+    z-index: -1;
+    top: 600px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255,255,255,.7);
+    opacity: 0;
+}
+
+.load_reg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    width: 70px;
+    height: 70px;
+    margin-top: -35px;
+    margin-left: -35px;
+    transition: opacity 0.5s;
+}
+.choose>p{
+    margin-top:30px;
+    text-align:center;
+     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+     font-weight:bold;
+     color:#D35400;
+}
+
+.restaurant_order select, .restaurant_order input[type=text] {
+    width: 250px;
+    border: 2px solid #D35400;
+    font-family: "Arial", cursive, sans-serif;
+    padding: 0;
+    font-size: 18px;
+    height: 30px;
+    text-align: center;
+    background-color: white;
+    box-sizing: border-box;
+    transition: ease-in-out .2s;
+    opacity: .8;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 7px;
+    height: 40px;
+    font-weight: bold;
+    color: #D35400;
+}
+
+.choose input[type=submit] {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    margin: 0;
+    padding: 10px;
+    border-style: none;
+    width: 300px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #D35400;
+    transition: ease .2s;
+    margin-bottom:13px;
+}
+
+    .choose input[type=submit]:hover {
+        cursor: pointer;
+        background-color: lightseagreen;
+    }
